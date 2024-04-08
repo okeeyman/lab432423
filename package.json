@@ -1,0 +1,23 @@
+{
+  "name": "lw3_1",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "json-server": "json-server --watch db.json --port 5000",
+    "serve": "concurrently \"npm run dev\" \"npm run json-server\""
+  },
+  "dependencies": {
+    "@pbe/react-yandex-maps": "^1.2.5",
+    "@react-google-maps/api": "^2.19.2",
+    "concurrently": "^8.2.2",
+    "fs": "^0.0.1-security",
+    "next": "14.1.0",
+    "react": "^18",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.0"
+  }
+}
